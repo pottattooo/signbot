@@ -1,0 +1,69 @@
+Sign Protocol Overview
+Sign Protocol is an omni-chain attestation protocol that enables users to create, store, and verify digital attestations across multiple blockchains, including Ethereum, Solana, TON, Aptos, Polygon, BNB Chain, and more. Launched in 2020 as EthSign, it evolved to simplify trust and verification in Web3 using zero-knowledge cryptography and digital signatures. It powers EthSign and TokenTable, with over 6 million attestations created and $4 billion distributed to 40 million wallets as of April 2025. Backed by Binance Labs and Sequoia Capital.
+
+Key Facts
+Attestations: Cryptographically signed claims linked to wallet addresses, used for identity, credentials, or agreements. Example: Verifying a user’s KYC status without revealing personal data.
+Schemas: Data structures defining attestation formats (e.g., {userId: string, verified: boolean}). Users register schemas to standardize attestations.
+$SIGN Token: Native token with 10 billion total supply, 1.2 billion circulating (April 2025). Used for transaction fees, DAO governance, and incentives for attesters/verifiers.
+EthSign: Decentralized e-signing platform for legally binding agreements. Over 250,000 documents signed as of April 2025. Features PDF uploads, cross-chain signatures (Bitcoin, EVM, TON, Solana), AES-256-GCM/ECIES encryption, and legal templates (SAFE, SAFT).
+TokenTable: Token distribution platform managing $4 billion to 40 million wallets across 200+ projects (e.g., Starknet, ZetaChain). Includes Airdrop Pro (large-scale), Airdrop Lite (up to 100,000 users), and Unlocker (vesting schedules).
+Sign Pass: Digital ID solution for identity verification, live in 3 countries (e.g., Barbados). Used for KYC, membership, or gated dApp access.
+Metrics: 6 million+ attestations created, $4 billion distributed, 250,000+ documents signed, Sign Pass active in 3 countries.
+
+Community
+Orange Dynasty: Sign’s vibrant community, the Orange Dynasty, unites over 50,000 members passionate about building a trust layer for Web3. Defined by its orange color and "SignGlasses" (stylized sunglasses), it follows the "OrangePrint," emphasizing love, transparency, and genuine engagement over user-farming. Members participate via X with orange PFPs, host events like SignRun, and earn Soulbound Tokens (SBTs) for contributions. The upcoming Sign App (Q2 2025) will offer 3x rewards for builders. The community rejects Sybil attacks, with 60% of $SIGN reserved for future growth.
+
+Leadership and Founders
+- Xin Yan (@realyanxin): Co-founder and CEO, started Sign as EthSign in a 2021 hackathon. An engineer-turned-entrepreneur, Xin aims for 100 Orange Dynasty members to achieve seven-figure success while fostering a love-driven community. Shapes Sign’s vision to bridge Web2 and Web3 via tools like TokenTable.
+- Potter Li: Head of Product at EthSign, active at ETHDenver and EthCC, discussing fundraising challenges and Sign’s user-friendly platforms for founders.
+- LJ Huang: Product developer who introduced Sign Profile, a tool for on-chain trust and identity, enhancing user interactions.
+
+Developers: Build Sign Protocol’s infrastructure, including smart contracts for TokenTable (handling $4B+ in airdrops) and cross-chain attestation systems for Ethereum, Solana, TON, and more. They ensure technical reliability, compliance, and scalability.
+
+Community Managers and Admins
+- Megan W: Sign intern, a key manager known for playful X engagement (e.g., "xoxo, Sign intern :3"). Organizes SignRun, shares updates, and builds resources like the Orange Dynasty webpage.
+- @nolabashy: Prominent admin coordinating SBT Tracker updates (e.g., removing Wallet Connect for easier access) and promoting the Orange Dynasty vibe on X. A Sign bestie fostering community camaraderie.
+- @signtheverse: Community leader and Sign Vanguards member, driving Sign Verse initiatives (Sign Ledger, Sign ID, Sign Escrow, Sign Games). Active in Discord planning and community campaigns.
+
+Sign OGs
+- Tajudeen (@Tajudeen_10, King of Sign): Bullish leader with the "Seeing Signs" SBT, known for his "Oath of the King of Sign" on X, rallying members with dynasty nicknames and oaths.
+- FransTp (@FransTp0): Active contributor to community narratives and engagement, prominent in Orange Dynasty campaigns.
+- haileys (@Haikeystweett): Supportive member and bestie figure, recognized for kind gestures and event participation.
+- truthonchained (@TruthOnchained): Dedicated OG pushing Sign’s mission, frequently tagged in community posts.
+- billibash.sign (@nolabashy): Key contributor and Sign bestie, co-leading initiatives and fostering community spirit.
+- Sign Bestie: Role embodied by supporters like @nolabashy symbolizing collaborative spirit.
+
+Community Groups
+- Sign Knights: Defenders of Orange Dynasty values, leading anti-Sybil initiatives and promoting fair participation.
+- Sign Academy: Educational hub teaching Web3 trust, attestation creation, and Sign Protocol use cases to onboard new signees.
+- Sign Vanguards: Innovators building dApps and schemas, recognized for contributions like the Orange Dynasty webpage and Sign Verse (Sign Ledger for transaction records, Sign ID for identity, Sign Escrow for secure deals, Sign Games for gaming trust).
+- Sign Army: Large cohort amplifying campaigns like SignRun across X and platforms.
+- Signverse: Creative subcommunity exploring Sign’s cultural impact via art, tattoos, and Sign Games, with components like Sign Ledger, Sign ID, and Sign Escrow.
+- Sign Gamers: Niche group integrating attestation-based mechanics into Web3 gaming for trust.
+- Other Cabals: Smaller groups for regional engagement, developer meetups, or niche interests, united under Orange Dynasty.
+
+Activities and Culture: SignRun, a multi-day event (e.g., "Seeing Signs" on day 24), encourages sharing goals, posting PFPs, and earning SBTs. The community embraces subcultures (gaming, art) and rewards creativity via a contribution pipeline. Transparency is key, with open-source tools and no paid promotions. References: Tiger Research (March 2025), Presto Research (April 2025), Sign’s X posts (Dec 2024–April 2025), user input (May 2025).
+
+Technical Details
+Verification: Lazy verification validates data in-browser, eliminating smart contract reliance and RPC errors.
+Storage: On-chain (smart contracts) or off-chain (Arweave for low-cost, permanent storage). Completed documents auto-submitted to Arweave.
+Security: Zero-knowledge proofs, audited smart contracts, open-source AWS backend. No user data stored server-side post-notification.
+Performance: Processes thousands of attestations per second, optimized for low gas costs.
+Supported Chains: Ethereum, Solana, TON, Aptos, Polygon, BNB Chain, and EVM-compatible chains. Supports cross-chain attestations.
+
+Tokenomics
+Total Supply: 10 billion $SIGN.
+Circulating Supply: 1.2 billion (April 2025).
+Allocation: 40% ecosystem, 20% team/advisors (4-year vesting), 15% community/airdrops, 15% investors, 10% reserve.
+Utility: Fees for attestations, DAO voting, participant rewards.
+Listings: Binance, Bitget, and others (since April 2025).
+
+Use Cases
+KYC/Identity: Verify identities for DeFi, NFT marketplaces, or DAOs without exposing data.
+E-Signing: Sign contracts, NDAs, or agreements with blockchain audit trails.
+Token Distribution: Manage airdrops, vesting, and fundraising for Web3 projects.
+Credentials: Issue verifiable certifications or memberships.
+Governance: Verify voter eligibility in DAO proposals.
+
+Legal Compliance
+EthSign is legally binding in tech-neutral jurisdictions (U.S., China, Australia, Canada, etc.) under laws like the U.S. ESIGN Act. Signers show intent, with signatures cryptographically linked to documents. Verify compliance in tiered-model regions.
